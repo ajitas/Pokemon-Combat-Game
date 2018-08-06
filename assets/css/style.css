@@ -1,0 +1,140 @@
+.container {
+    text-align:center;
+    font-size:25px;
+    height:700px;
+    width:100%;
+    color:white;
+    background-image:url("https://media.giphy.com/media/BlOY9MQiFKqIg/giphy.gif");
+    position:relative;
+    overflow:auto;
+}
+
+.container>div {
+    padding:10px;
+}
+
+#heading {
+    font-size:50px;
+    padding:30px 30px 5px 30px;
+    text-shadow: 3px 3px 4px white;
+
+}
+#rules {
+    font-size:10px;
+    text-shadow: 3px 3px 4px white;
+
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    left:10%;
+    right:10%;
+    top:10%;
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    overflow: auto; /* Enable scroll if needed */
+    background-color:black;
+
+}
+.close {
+    color:white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    cursor: pointer;
+}
+.modal-content {
+    background-color:black;
+    color:white;
+    margin: auto;
+    padding: 20px;
+    margin-bottom:30px;
+    line-height: 30px;
+    border: 1px solid #888;
+    width: 80%;
+    font-size:24px;
+    box-shadow: 0 5px 40px white ;
+}
+
+.pokemon {
+    width:170px;
+    height:170px;
+}
+.enemies {
+    width:170px;
+    height:170px;
+}
+.defender {
+    width:170px;
+    height:170px;
+}
+.combat-pokemon {
+    width:170px;
+    height:170px;
+}
+#pokemon1:hover , #pokemon2:hover ,#pokemon3:hover, #pokemon4:hover{
+    position:relative;
+    bottom:30px;
+}
+#enemy1:hover , #enemy2:hover ,#enemy3:hover{
+    position:relative;
+    bottom:30px;
+}
+#defender:hover {
+    position:relative;
+    bottom:30px;
+}
+
+.area {
+    position:absolute;
+    width:100%;
+}
+#all-pokemon-area {
+    top:20%;
+}
+#enemy-area {
+    top:60%;
+}
+#defender-area {
+    top:100%;
+}
+
+#start-combat {
+    position:absolute;
+    top:140%;
+    width:30%;
+    left:35%;
+    background-color:black;
+    margin-bottom:40px;
+    box-shadow: 0 5px 40px white ;
+}
+.message {
+    font-size:25px;
+    padding-bottom:40px;
+    text-shadow: 2px 2px 6px white;
+}
+
+#combat-zone {
+    padding-top:40px;
+}
+
+#attack, #restart {
+    background:black;
+    margin-bottom:10px;
+    box-shadow: 0 5px 40px white ;
+    padding-bottom:10px;
+}
+
+#result {
+    font-size:40px;
+    padding-bottom:40px;
+    text-shadow: 2px 2px 6px red;
+}
+
+
+
+
