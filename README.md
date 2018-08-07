@@ -1,7 +1,7 @@
 # Pokemon-Combat-Game
 
 <!-- Put a description of what the project is -->
-Learning jQuery: Click event handlers, binding/unbinding of event handlers, dymanically creating html elements, jQuery
+Learning jQuery: Click event handlers, binding/unbinding of event handlers, dymanically creating html elements and assigning attributes to them
 
 ## Link to deployed site
 <!-- make a link to the deployed site --> 
