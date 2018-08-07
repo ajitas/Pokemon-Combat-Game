@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -18,9 +18,10 @@
         <div id="myModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <p>Goal: To reduce the target number shown on the top crystal to exactly 0.</p>
-                <p>How to play: Every crystal has a random value hidden in it. As you click any of the four crystals, the value hidden in it is subtracted from the target number. </p>
-                <p>If the target number is reduced to a number lower than 0, you lose. If the target number is reduced to exactly 0, you win.</p>
+                <p>Goal: To defeat all the pokemons.</p>
+                <p>How to play: Select a pokemon from the four pokemons shown to play with. The rest will be considered as enemies.</p>
+                <p>Select one enemy from the enemy list and start the battle. If you lose, the game restarts. If you win, you can select more from the enemy lot to play with, until you defeat all of them</p>
+                <p>If you defeat all the enemies, you win. you can play the game again if you wish.</p>
                 <p>Let's Play!</p>
             </div>
         </div>
@@ -55,6 +56,12 @@
                 </div>
                 <div class="row">
                         <div class="col-md-12"><p><span id="result"></span></p></div>
+                </div>
+                <div class="row">
+                        <div class="col-md-12" id="game-over">Game Over</div>
+                </div>
+                <div class="row">
+                        <div id="another-player" class="col-md-12 message">Play Another Enemy</div>
                 </div>
                 <div class="row">
                         <div id="restart" class="col-md-12 message">Restart</div>
