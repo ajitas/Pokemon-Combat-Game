@@ -27,6 +27,9 @@ Learning jQuery: Click event handlers, binding/unbinding of event handlers, dyma
 -->
 1. HTML
 2. CSS/BootStrap
+    * box-shadow
+    * text-shadow
+    * modal content
 3. Javascript
     * control structure(loops, conditions, switch)
     * data structures
